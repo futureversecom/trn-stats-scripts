@@ -1,0 +1,23 @@
+# dependencies
+node_modules
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+.pnpm-debug.log*
+
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+
+.github/payload.json
+
+data/*
+!data/.gitkeep
+
+.env
